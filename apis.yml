@@ -1,8 +1,26 @@
 aid: commsignia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/commsignia.png
 name: Commsignia
-description: 'Commsignia is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Industrial, Energy & IoT. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Commsignia is a Budapest-based V2X (Vehicle-to-Everything) technology company building
+  connected vehicle and smart infrastructure solutions for the automotive and transportation industries.
+  Its portfolio spans roadside units (RSUs) and onboard units (OBUs), a V2X software stack, and cloud
+  services grouped into product suites: Roadway Intelligence, Emergency Safety, Fleet, Automotive, Smart
+  Infrastructure, and Connected Vehicle. The company turns isolated roadway and vehicle data silos into
+  real-world operational intelligence for safer roads and improved traffic flow. As of this enrichment
+  pass Commsignia publishes no public developer API, REST/OpenAPI reference, SDK, or developer portal;
+  technical integration is handled through direct engagement. It was surfaced as a portfolio company of
+  Partech.'
 url: https://raw.githubusercontent.com/api-evangelist/commsignia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Industrial, Energy & Iot
+- V2X
+- Connected Vehicle
+- Smart Infrastructure
+- Automotive
+- Transportation
+- Internet of Things
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.commsignia.com/
+- type: Blog
+  url: https://www.commsignia.com/blog
+- type: PrivacyPolicy
+  url: https://www.commsignia.com/legal/privacy-policy
+- type: Support
+  url: https://www.commsignia.com/contact-us
+- type: GitHubOrganization
+  url: https://github.com/commsignia
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
